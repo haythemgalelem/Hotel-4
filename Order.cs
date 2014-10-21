@@ -5,7 +5,7 @@ namespace lDZ_Hotel.Sources
 {
     class Order
     {
-        private Customer currentOrder;
+        private Customer currentCustomer;
         private Hotel hotel;
 
         public Order(Hotel hotel, Customer new_custumer)
@@ -18,7 +18,7 @@ namespace lDZ_Hotel.Sources
         {
             new Thread(delegate()
                 {
-                    if (this.hotel.add_custumer(this.currentOrder)) ;
+                    if (this.hotel.add_custumer(this.currentCustomer)) ;
 
                     else
                     {
@@ -27,11 +27,11 @@ namespace lDZ_Hotel.Sources
                             Thread.Sleep(100);
                         }
 
-                        this.hotel.add_custumer(this.currentOrder);
+                        this.hotel.add_custumer(this.currentCustomer);
                     }
                    
-                    Thread.Sleep(this.currentOrder.Time);
-                    this.hotel.move_out_custumer(this.currentOrder);
+                    Thread.Sleep(this.currentCustomer.Time);
+                    this.hotel.move_out_custumer(this.currentCustomer);
 
                 }).Start();
         }

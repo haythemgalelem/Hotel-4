@@ -10,7 +10,7 @@ namespace lDZ_Hotel.Sources
 
         public Order(Hotel hotel, Customer new_custumer)
         {
-            this.currentOrder = new_custumer;
+            this.currentCustomer = new_custumer;
             this.hotel = hotel;
         }
 

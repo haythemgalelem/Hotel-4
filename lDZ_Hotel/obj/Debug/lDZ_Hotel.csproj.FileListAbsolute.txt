@@ -1,0 +1,6 @@
+E:\НАВЧАННЯ\OOP\lDZ_Hotel\lDZ_Hotel\bin\Debug\lDZ_Hotel.exe.config
+E:\НАВЧАННЯ\OOP\lDZ_Hotel\lDZ_Hotel\bin\Debug\lDZ_Hotel.exe
+E:\НАВЧАННЯ\OOP\lDZ_Hotel\lDZ_Hotel\bin\Debug\lDZ_Hotel.pdb
+E:\НАВЧАННЯ\OOP\lDZ_Hotel\lDZ_Hotel\obj\Debug\lDZ_Hotel.exe
+E:\НАВЧАННЯ\OOP\lDZ_Hotel\lDZ_Hotel\obj\Debug\lDZ_Hotel.pdb
+E:\НАВЧАННЯ\OOP\lDZ_Hotel\lDZ_Hotel\obj\Debug\lDZ_Hotel.csprojResolveAssemblyReference.cache
